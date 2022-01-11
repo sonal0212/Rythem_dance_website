@@ -93,13 +93,19 @@ body {
 
 .grid {
   display: grid;
-  column-gap: 6.4rem;
   row-gap: 9.6rem;
 }
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  column-gap: 6.4rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 4.8rem;
 }
 
 .heading-secondary {
@@ -112,5 +118,5 @@ body {
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
-  color: #0f172a;
+  color: #4c4c4c;
 }
