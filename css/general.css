@@ -104,6 +104,11 @@ body {
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 4.8rem;
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   column-gap: 4.8rem;
 }
