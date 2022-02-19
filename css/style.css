@@ -146,7 +146,7 @@
 /*******************/
 .classes-section {
   background-color: #0f172a;
-  padding: 6rem 9.6rem;
+  padding: 9.6rem 14rem;
 }
 
 .classes-heading {
@@ -209,8 +209,8 @@
 /***Our trainers****/
 /***********{********/
 
-.trainers-section {
-  padding: 12.8rem 3.2rem;
+.trainers-sections {
+  padding: 9.6rem 3.2rem;
   background-color: #ffe5e2;
   color: #f1f1f1;
 }
@@ -280,4 +280,82 @@
 .trainers-text_box {
   padding: 4.2rem 2rem;
   text-align: center;
+}
+
+/* *****************
+/***CTA Section****/
+/***********{********/
+
+.cta-section {
+  padding: 4.8rem 3.2rem;
+  background-image: linear-gradient(
+      110deg,
+      rgba(35, 50, 138, 0.623) 45%,
+      rgba(178, 10, 44, 0.26) 55%
+    ),
+    url(../img/cta/cta.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.cta-section .pre-heading {
+  color: #0f172a;
+  font-size: 1.6rem;
+}
+
+.cta-section .heading-secondary {
+  background-image: linear-gradient(#00f260, #0575e6);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 6rem;
+}
+
+.form_label {
+  font-size: 1.8rem;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.signup-page {
+  display: block;
+  align-content: center;
+}
+
+.form {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.form_input {
+  max-width: 100%;
+  border: none;
+  padding: 1.2rem 2rem;
+  outline: none;
+  border-radius: 6px;
+  font-family: inherit;
+  background-color: rgba(15, 23, 42, 0.562);
+  transition: all 0.2s;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.form_label {
+  margin-bottom: 1em;
+}
+
+.form_input:focus {
+  border-bottom: 1px solid #0c849942;
+  background-color: #0b063638;
+}
+
+.form_input:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.sign_up_btn {
+  margin-top: 2rem;
 }

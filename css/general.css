@@ -74,7 +74,7 @@ body {
   cursor: pointer;
   font-family: inherit;
 
-  background-color: #fe7e6d;
+  background-color: #0c8599;
   color: #fff;
 
   transition: all 0.3s;
@@ -82,7 +82,7 @@ body {
 
 .btn:hover,
 .btn:active {
-  background-color: #0c8599;
+  background-color: #fe7e6d;
 }
 
 .btn-hero {
