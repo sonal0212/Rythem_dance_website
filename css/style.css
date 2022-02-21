@@ -75,13 +75,12 @@
 /* ABOUT */
 /**************************/
 .section-about {
-  padding: 9.6rem 0;
+  padding: 4.8em 0;
 }
 
 .sub-heading {
   font-size: 4.8rem;
-  text-align: center;
-  margin-bottom: 6rem;
+  margin-bottom: 3.2rem;
   letter-spacing: 0.75px;
   color: #0f172a;
 }
@@ -145,7 +144,7 @@
 /*Our Classes*/
 /*******************/
 .classes-section {
-  background-color: #0f172a;
+  background-color: #03001e;
   padding: 9.6rem 14rem;
 }
 
@@ -161,7 +160,8 @@
 
 .dance-classes {
   border-radius: 0.6rem;
-  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.25);
+  background-color: #08033f;
+  box-shadow: 0 0 1rem #616c8b;
   transition: all 0.4s;
   overflow: hidden;
 }
@@ -210,8 +210,8 @@
 /***********{********/
 
 .trainers-sections {
-  padding: 9.6rem 3.2rem;
-  background-color: #ffe5e2;
+  padding: 4.8rem 3.2rem;
+  background-color: #fff;
   color: #f1f1f1;
 }
 
@@ -288,18 +288,14 @@
 
 .cta-section {
   padding: 4.8rem 3.2rem;
-  background-image: linear-gradient(
-      110deg,
-      rgba(35, 50, 138, 0.623) 45%,
-      rgba(178, 10, 44, 0.26) 55%
-    ),
-    url(../img/cta/cta.jpg);
+  background-image: url(../img/cta/cta-0.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
 
 .cta-section .pre-heading {
-  color: #0f172a;
+  color: #ddd;
   font-size: 1.6rem;
 }
 
@@ -338,6 +334,7 @@
   border-radius: 6px;
   font-family: inherit;
   background-color: rgba(15, 23, 42, 0.562);
+  background-color: rgba(231, 231, 231, 0.753);
   transition: all 0.2s;
   color: #fff;
   font-size: 1.6rem;
@@ -349,7 +346,7 @@
 
 .form_input:focus {
   border-bottom: 1px solid #0c849942;
-  background-color: #0b063638;
+  background-color: #eee;
 }
 
 .form_input:not(:last-child) {
