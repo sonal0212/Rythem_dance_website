@@ -144,8 +144,9 @@
 /*Our Classes*/
 /*******************/
 .classes-section {
-  background-color: #03001e;
-  padding: 9.6rem 14rem;
+  background-color: #fe7e6d;
+  padding: 4.8em 10%;
+  max-width: 100%;
 }
 
 .classes-heading {
@@ -159,50 +160,61 @@
 }
 
 .dance-classes {
+  max-width: auto;
+  margin: 0 auto;
   border-radius: 0.6rem;
-  background-color: #08033f;
-  box-shadow: 0 0 1rem #616c8b;
   transition: all 0.4s;
-  overflow: hidden;
+  background-color: #0f172a;
+  box-shadow: 0 0rem 1rem #eee;
 }
 
 .dance-classes:hover {
-  transform: scale(1.1);
+  transform: translateY(-2rem);
 }
 
-.dancer-img {
-  max-width: 100%;
-  border-radius: 1.2rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+.dance-classes:hover .classes-icons {
+  transform: rotate(360deg);
 }
+
+.circle-bg {
+  transform: translateY(-50%);
+  margin-left: 38.333%;
+  margin-right: 38.333%;
+}
+
+.classes-icons {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid #6db6c2;
+  box-shadow: 0 0rem 1rem #eee;
+  max-width: 100%;
+  text-align: center;
+  transition: all 0.6s ease-in-out;
+}
+
+/* .classes-icons:hover {
+  transform: rotate(360deg);
+} */
 
 .classes-text {
-  color: #0c8599;
   font-size: 1.8rem;
-  text-align: left;
+  text-align: center;
   margin-bottom: 3.2rem;
 }
 
 .classes-title {
   margin-bottom: 3.8rem;
+  text-align: center;
 }
 
 .classes-box {
   padding: 3.2rem;
 }
 
-.timings {
-  font-size: 1.8rem;
-  line-height: 1.2;
-  list-style: none;
-  margin-bottom: 4.8rem;
-}
-
 .letter {
   font-size: 3.2rem;
   font-weight: 500;
-  color: #fe7e6d;
+  color: #0c8599;
 }
 
 /* *****************
