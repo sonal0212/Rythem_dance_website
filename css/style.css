@@ -144,8 +144,9 @@
 /*Our Classes*/
 /*******************/
 .classes-section {
-  background-color: #fe7e6d;
-  padding: 4.8em 10%;
+  background-color: #6db6c2;
+  margin: 0 auto;
+  padding: 4.8em 9.8rem;
   max-width: 100%;
 }
 
@@ -159,9 +160,12 @@
   text-align: center;
 }
 
+.section-4 {
+  max-width: 100%;
+}
+
 .dance-classes {
   max-width: auto;
-  margin: 0 auto;
   border-radius: 0.6rem;
   transition: all 0.4s;
   background-color: #0f172a;
@@ -220,7 +224,7 @@
 
 /* *****************
 /***Our trainers****/
-/***********{********/
+/*******************/
 
 .trainers-sections {
   padding: 4.8rem 3.2rem;
@@ -245,7 +249,7 @@
 }
 
 .trainers {
-  background-color: #fe7e6d;
+  background-color: #30475e;
   border-radius: 6px;
   box-shadow: 0 0rem 1rem #fea599;
   transition: all 0.5s;
@@ -253,13 +257,17 @@
 }
 
 .trainers:hover {
-  background-color: #30475e;
-  color: #ffbfb6;
+  background-color: #fe7e6d;
+  color: #eee;
   transform: translateY(-1rem);
 }
 
+h4 {
+  color: #0f172a;
+}
+
 .trainers:hover h4 {
-  color: #fe7e6d;
+  color: #0f172a;
 }
 
 .trainers_img {
@@ -293,6 +301,94 @@
 .trainers-text_box {
   padding: 4.2rem 2rem;
   text-align: center;
+}
+
+/* *****************
+/***pricing section****/
+/*******************/
+.pricing-section {
+  padding: 4.8rem 3.2rem;
+}
+
+.princing-plan {
+  background-image: linear-gradient(#00f260, #0575e6);
+  border-radius: 11px;
+  position: relative;
+}
+
+.plan-header {
+  text-align: center;
+}
+
+.plan-name {
+  margin-top: 2rem;
+  color: #30475e;
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+
+.plan-price {
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 10.8rem;
+}
+
+.plan-text {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.text--1 {
+  color: #27272a;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  font-weight: 500;
+  align-items: left;
+}
+
+.list-items {
+  display: flex;
+  grid-column: auto;
+  align-self: start;
+  gap: 2rem;
+}
+
+.list-text {
+  transform: translateY(10px);
+}
+
+.plan-sing-up {
+  text-align: center;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.plan-btn:link,
+.plan-btn:visited {
+  padding: 1.6rem 6.4rem;
+  background-color: #000;
+  transition: all 0.4s;
+}
+
+.plan-btn:hover,
+.btn:active {
+  transform: scale(1.1);
+}
+
+.princing-plan--starter {
+  background-image: linear-gradient(#e35d5b, #363795);
 }
 
 /* *****************
@@ -349,7 +445,7 @@
   background-color: rgba(15, 23, 42, 0.562);
   background-color: rgba(231, 231, 231, 0.753);
   transition: all 0.2s;
-  color: #fff;
+  color: #0f172a;
   font-size: 1.6rem;
 }
 
