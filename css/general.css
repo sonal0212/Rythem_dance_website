@@ -100,6 +100,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 6.4rem;
+  grid-auto-flow: row;
 }
 
 .grid2 {
@@ -118,6 +119,15 @@ body {
   align-items: center;
   column-gap: 4.8rem;
   justify-content: space-between;
+}
+
+.pre-heading {
+  margin-top: 4.8rem;
+  color: #0f172a;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .heading-secondary {

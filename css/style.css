@@ -277,15 +277,6 @@
   color: #f1f1f1;
 }
 
-.pre-heading {
-  margin-top: 4.8rem;
-  color: #0f172a;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 500;
-}
-
 .heading-trainers {
   font-size: 4.8rem;
   font-weight: 900;
@@ -354,6 +345,82 @@ h4 {
 .trainers-text_box {
   padding: 4.2rem 2rem;
   text-align: center;
+}
+
+/* *****************
+/***Testimonial Section****/
+/*******************/
+.testimonial-section {
+  background-color: #0f172a;
+}
+
+.testimonial-pictures {
+  background-image: linear-gradient(
+      rgba(254, 126, 109, 0.575),
+      rgba(15, 23, 42, 0.61)
+    ),
+    url(../img/testimonial/tes-4.jpg);
+  background-size: cover;
+  padding: 12.6rem 4.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.testimonial_img-1 {
+  width: 150%;
+  border-radius: 10%;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  border: 10px solid #eee;
+  transition: all 0.4s;
+}
+
+.testimonial_img-1:hover {
+  z-index: 10;
+  transform: scale(1.1);
+}
+
+.testimonial_img-2 {
+  border-radius: 10%;
+  align-self: center;
+  width: 110%;
+  z-index: 1;
+  border: 10px solid #eee;
+  transition: all 0.4s;
+}
+
+.testimonial_img-2:hover {
+  transform: scale(1.1);
+}
+
+.students-review {
+  padding: 6rem 8vw;
+  display: grid;
+  align-content: center;
+}
+
+.testimonial_text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.review-heading {
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+  color: #e35d5b;
+}
+
+.review--pre-heading {
+  font-size: 2.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.testimonial_text {
+  font-size: 1.8rem;
 }
 
 /* *****************
@@ -446,7 +513,7 @@ h4 {
 
 /* *****************
 /***CTA Section****/
-/***********{********/
+/*******************/
 
 .cta-section {
   padding: 4.8rem 3.2rem;
